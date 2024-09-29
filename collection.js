@@ -6,7 +6,7 @@ import axios from 'axios'
 const bgmUser = process.env.BANGUMI_USER || 'geekaven'
 const bgmUrl = 'https://api.bgm.tv'
 const subjectType = {
-  anime: 3,
+  anime: 2,
 }
 const collectionType = {
   want: 1, //想看
