@@ -20,7 +20,7 @@ function getTab() {
           .insertAdjacentHTML('beforeend', `<span class="bgm-tab" id="bgm-${key}" data-type=${key} onclick="tabClick(event)">${types[key]}(${value})</span>`)
       }
     }
-    document.getElementsByClassName('bgm-tab')[1].click()
+    document.getElementsByClassName('bgm-tab')[2].click()
   })
 }
 
